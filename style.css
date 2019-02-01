@@ -44,6 +44,10 @@ input#whatneedstobedone::placeholder {
   opacity: 0.5; }
 
 /* TODO List*/
+ul.todolist {
+  padding-left: 0px;
+  list-style: none; }
+
 .item {
   border-bottom: solid 1px #ededed; }
 

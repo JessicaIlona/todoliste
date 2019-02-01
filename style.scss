@@ -68,6 +68,11 @@ input#whatneedstobedone::placeholder {
 
 /* TODO List*/
 
+ul.todolist {
+    padding-left: 0px;
+    list-style: none;
+}
+
 .item {
     border-bottom: solid 1px $line;;
 }
@@ -84,7 +89,6 @@ input#whatneedstobedone::placeholder {
 .checkbox-circle:checked + .checkbox-circle-tick::before {
     content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='-10 -18 100 135'%3E%3Ccircle cx='50' cy='50' r='50' fill='none' stroke='%23bddad5' stroke-width='3'/%3E%3Cpath fill='%235dc2af' d='M72 25L42 71 27 56l-4 4 20 20 34-52z'/%3E%3C/svg%3E");
 }
-
 
 label {
     position: relative;
